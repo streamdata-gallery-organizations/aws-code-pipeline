@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutActionRevision&k=1:
+  /?Action=PutActionRevision:
     get:
       summary: ' Put Action Revision '
       description: Provides information to AWS CodePipeline about new revisions to
