@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartPipelineExecution&k=1:
+  /?Action=StartPipelineExecution:
     get:
       summary: ' Start Pipeline Execution '
       description: Starts the specified pipeline
