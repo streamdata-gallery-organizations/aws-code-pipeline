@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutJobSuccessResult&k=1:
+  /?Action=PutJobSuccessResult:
     get:
       summary: ' Put Job Success Result '
       description: Represents the success of a job as returned to the pipeline by
