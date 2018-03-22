@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RetryStageExecution&k=1:
+  /?Action=RetryStageExecution:
     get:
       summary: ' Retry Stage Execution '
       description: |-
