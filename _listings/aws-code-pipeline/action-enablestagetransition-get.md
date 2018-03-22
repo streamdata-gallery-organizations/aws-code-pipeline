@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableStageTransition&k=1:
+  /?Action=EnableStageTransition:
     get:
       summary: ' Enable Stage Transition '
       description: Enables artifacts in a pipeline to transition to a stage in a pipeline
