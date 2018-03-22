@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreatePipeline&k=1:
+  /?Action=CreatePipeline:
     get:
       summary: ' Create Pipeline '
       description: Creates a pipeline
