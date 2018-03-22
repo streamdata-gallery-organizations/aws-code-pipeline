@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetPipelineState&k=1:
+  /?Action=GetPipelineState:
     get:
       summary: ' Get Pipeline State '
       description: |-
