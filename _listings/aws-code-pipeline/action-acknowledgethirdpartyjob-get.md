@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AcknowledgeThirdPartyJob&k=1:
+  /?Action=AcknowledgeThirdPartyJob:
     get:
       summary: ' Acknowledge Third Party Job '
       description: Confirms a job worker has received the specified job
