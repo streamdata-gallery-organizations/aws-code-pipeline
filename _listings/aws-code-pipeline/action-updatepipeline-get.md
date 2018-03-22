@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdatePipeline&k=1:
+  /?Action=UpdatePipeline:
     get:
       summary: ' Update Pipeline '
       description: Updates a specified pipeline with edits or changes to its structure
