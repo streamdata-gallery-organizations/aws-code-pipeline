@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutApprovalResult&k=1:
+  /?Action=PutApprovalResult:
     get:
       summary: ' Put Approval Result '
       description: Provides the response to a manual approval request to AWS CodePipeline
