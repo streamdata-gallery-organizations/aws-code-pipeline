@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListActionTypes&k=1:
+  /?Action=ListActionTypes:
     get:
       summary: ' List Action Types '
       description: |-
