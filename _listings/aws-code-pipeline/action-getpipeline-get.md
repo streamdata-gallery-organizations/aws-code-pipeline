@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetPipeline&k=1:
+  /?Action=GetPipeline:
     get:
       summary: ' Get Pipeline '
       description: Returns the metadata, structure, stages, and actions of a pipeline
