@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutThirdPartyJobSuccessResult&k=1:
+  /?Action=PutThirdPartyJobSuccessResult:
     get:
       summary: ' Put Third Party Job Success Result '
       description: |-
