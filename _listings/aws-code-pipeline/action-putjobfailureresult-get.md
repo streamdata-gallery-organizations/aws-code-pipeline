@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutJobFailureResult&k=1:
+  /?Action=PutJobFailureResult:
     get:
       summary: ' Put Job Failure Result '
       description: Represents the failure of a job as returned to the pipeline by
