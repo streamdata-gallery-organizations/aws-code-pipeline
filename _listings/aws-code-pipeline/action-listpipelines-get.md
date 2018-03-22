@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListPipelines&k=1:
+  /?Action=ListPipelines:
     get:
       summary: ' List Pipelines '
       description: Gets a summary of all of the pipelines associated with your account
