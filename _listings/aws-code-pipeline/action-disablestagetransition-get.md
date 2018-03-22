@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableStageTransition&k=1:
+  /?Action=DisableStageTransition:
     get:
       summary: ' Disable Stage Transition '
       description: |-
