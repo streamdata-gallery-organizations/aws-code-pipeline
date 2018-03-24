@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: aws-code-pipeline.api.streamdata.gallery
+title: Streamdata Gallery AWS Code Pipeline
+url: aws-code-pipeline.streamdata.gallery
 tag: AWS Code Pipeline
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: aws-code-pipeline
 github_branch: master
 collections:
